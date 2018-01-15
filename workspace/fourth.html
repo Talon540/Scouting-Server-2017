@@ -1,0 +1,224 @@
+<html>
+
+<head>
+
+<title>
+
+	Talon 540 Scouting Guide
+
+</title>
+
+
+
+<style>
+
+
+
+input[type=checkbox] {
+
+	height: 100px;
+
+	width: 100px;
+
+	vertical-align: middle;
+
+	align: left;
+
+	text-align: left;
+
+	
+
+}
+
+input[type=radio] {
+
+	height: 100px;
+
+	width: 100px;
+
+}
+
+.buttons {
+
+	height: 80px;
+
+	width: 200px;
+
+	font-size: 50px;
+
+	font-family: "Bookman Old Style";
+
+}
+
+.team {
+
+	height: 80px; 
+
+	font-size: 60px;
+
+	width: 199px;
+
+}
+
+.name {
+
+	height: 80px; 
+
+	font-size: 60px;
+
+	width: 400px;
+
+}
+
+.text {
+
+	height: 80px; 
+
+	font-size: 60px;
+
+	width: 200px;
+
+}
+
+.comments {
+
+	
+
+	height: 150px;
+
+	font-size: 60px;
+
+	width: 100%;
+
+}
+
+	
+
+body {
+
+	background-image:url("https://i.imgsafe.org/c09f9e65aa.jpg");
+
+	background-size:600px 600px;	
+
+}
+
+
+
+table, th, tr {
+
+	background-color: #8b8787;
+
+	font-size: 150%;
+
+	color: #ffffff;
+
+	text-align: left;
+
+	vertical-align: middle;
+
+}
+
+
+
+td {
+
+	background-color: #8b8787;
+
+	font-size: 120%;
+
+	color: #ffffff;
+
+	text-align: left;
+
+	
+
+}
+
+legend {
+
+	font-size: 600%;
+
+	font-weight: bold;
+
+	color: #ffffff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+    
+    <center>
+        <img src="https://i.imgsafe.org/bd0df34407.png" width="90%">
+    </center>
+    
+    <form action="sort.php" method="post">
+        
+    <fieldset>
+        
+        <legend>
+            (Pick Only One) Sort Teams By:
+        </legend>
+        
+        <table width="100%">
+
+	        <tr> 
+    	        <td><input name="auto_gear" type="radio" value="1"></td>
+	            <td>Autonomous Gears</td>
+	        </tr>
+	        
+	        <tr> 
+    	        <td><input name="auto_high" type="radio" value="1"></td>
+	            <td>Autonomous High Goals</td>
+	        </tr> 
+	        
+	        <tr> 
+    	        <td><input name="auto_low" type="radio" value="1"></td>
+	            <td>Autonomous Low Goals</td>
+	        </tr> 
+	        
+	        <tr> 
+    	        <td><input name="gear" type="radio" value="1"></td>
+	            <td>Teleoperation Gears</td>
+	        </tr> 
+	        
+	        <tr> 
+    	        <td><input name="high" type="radio" value="1"></td>
+	            <td>Teleoperation High Goals</td>
+	        </tr> 
+	        
+	        <tr> 
+    	        <td><input name="low" type="radio" value="1"></td>
+	            <td>Teleoperation Low Goals</td>
+	        </tr> 
+	        
+	        <tr> 
+    	        <td><input name="climb" type="radio" value="1"></td>
+	            <td>Climbing</td>
+	        </tr>
+	        <tr> 
+    	        <td><input name="composite" type="radio" value="1"></td>
+	            <td>Robot Composite Score</td>
+	        </tr>
+	        <tr> 
+    	        <td><input name="team" type="radio" value="1"></td>
+	            <td>Team Score</td>
+	        </tr> 
+	    
+        </table>
+        
+    </fieldset>
+    
+    <br>
+    
+    <p>
+        <input class="buttons" type="submit" value="Submit">
+    </p>
+    
+</form>
+    
+</body>
+
+</html>
